@@ -5,17 +5,17 @@ div#clock{
 
 .percircle.purple .bar,
 .percircle.purple .fill {
-  border-color: #aa7eff;
+  border-color: #0b7bf9;
 }
 .percircle.purple:hover > span {
-  color: #aa7eff;
+  color: #0b7bf9;
 }
 .percircle.purple.dark .bar,
 .percircle.purple.dark .fill {
-  border-color: #7a38f7;
+  border-color: #0b7bf9;
 }
 .percircle.purple.dark:hover > span {
-  color: #7a38f7;
+  color: #0b7bf9;
 }
 
 .rect-auto,
@@ -26,7 +26,7 @@ div#clock{
 .percircle .bar,
 .gt50 .fill {
   position: absolute;
-  border: 0.08em solid #307bbb;
+  border: 0.08em solid #0b7bf9;
   width: 0.84em;
   height: 0.84em;
   clip: rect(0, 0.5em, 1em, 0);
@@ -67,7 +67,7 @@ div#clock{
   border-radius: 50%;
   float: left;
   margin: 0 0.1em 0.1em 0;
-  background-color: #cccccc;
+  background-color: #444;
 }
 .percircle *,
 .percircle *:before,
@@ -109,7 +109,7 @@ div#clock{
   height: 1em;
   margin-top: -0.5em;
   font-size: 0.2em;
-  color: #cccccc;
+  color: #2b2b2b;
   display: block;
   text-align: center;
   white-space: nowrap;
@@ -130,7 +130,7 @@ div#clock{
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background-color: #f5f5f5;
+  background-color: #eee;
   width: 0.84em;
   height: 0.84em;
 }
